@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link defer rel="stylesheet" href="/css/main.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.4.min.js"
+      integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="/index.js"></script>
+    <title>CRUD</title>
+  </head>
+  <body>
+    <h1>CLIENTES</h1>
+
+    <button id="getClientes">Show clientes</button>
+    <hr />
+    <form id="clienteForm">
+      <label for="1">Name: </label>
+      <input type="text" id="1" name="name"/>
+      <br />
+      <br />
+      <label for="2">DNI: </label>
+      <input type="number" id="2" name="dni" />
+      <br />
+      <br />
+      <label for="3">Domicilio: </label>
+      <input type="text" id="3" name="domicilio"/>
+      <br />
+      <br />
+      <label for="4">Telefono: </label>
+      <input type="number" id="4" name="telefono"/>
+      <br /><br />
+      <button type="submit">create product</button>
+    </form>
+
+    <hr />
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>name</th>
+          <th>dni</th>
+          <th>home</th>
+          <th>telephone</th>
+          <th>acctions</th>
+        </tr>
+      </thead>
+
+      <tbody></tbody>
+    </table>
+  </body>
+</html>

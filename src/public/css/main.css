@@ -1,0 +1,23 @@
+body{
+    background-color: blue;
+}
+h1{
+    color: white;
+}
+thead{
+
+    color: white;
+    border-color: white;
+}
+td{
+    color: white;
+    font-size: larger;
+}
+
+label{
+
+
+    color: white;
+    font-size: larger;
+    
+}
